@@ -1021,7 +1021,7 @@
 		playsound(user, toysound, 20, TRUE)
 
 /obj/item/toy/figure/cmo
-	name = "\improper Medical Director action figure"
+	name = "\improper Chief Medical Officer action figure"
 	icon_state = "cmo"
 	toysay = "Suit sensors!"
 
@@ -1053,7 +1053,7 @@
 	toysay = "Blaze it!"
 
 /obj/item/toy/figure/captain
-	name = "\improper Site Director action figure"
+	name = "\improper Captain action figure"
 	icon_state = "captain"
 	toysay = "Any heads of staff?"
 
@@ -1063,7 +1063,7 @@
 	toysay = "For Cargonia!"
 
 /obj/item/toy/figure/ce
-	name = "\improper Site Foreman action figure"
+	name = "\improper Chief Engineer action figure"
 	icon_state = "ce"
 	toysay = "Wire the solars!"
 
@@ -1114,7 +1114,7 @@
 	toysay = "Smash!"
 
 /obj/item/toy/figure/hop
-	name = "\improper Asset Clerk action figure"
+	name = "\improper Head of Personnel action figure"
 	icon_state = "hop"
 	toysay = "Papers please."
 
