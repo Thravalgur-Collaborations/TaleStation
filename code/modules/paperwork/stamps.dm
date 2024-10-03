@@ -40,12 +40,12 @@
 	REGISTER_REQUIRED_MAP_ITEM(1, INFINITY)
 
 /obj/item/stamp/head/captain
-	name = "site director's rubber stamp"
+	name = "captain's rubber stamp"
 	icon_state = "stamp-cap"
 	dye_color = DYE_CAPTAIN
 
 /obj/item/stamp/head/hop
-	name = "asset clerk's rubber stamp"
+	name = "head of personnel's rubber stamp"
 	icon_state = "stamp-hop"
 	dye_color = DYE_HOP
 
@@ -55,7 +55,7 @@
 	dye_color = DYE_HOS
 
 /obj/item/stamp/head/ce
-	name = "site foreman's rubber stamp"
+	name = "chief engineer's rubber stamp"
 	icon_state = "stamp-ce"
 	dye_color = DYE_CE
 
@@ -65,7 +65,7 @@
 	dye_color = DYE_RD
 
 /obj/item/stamp/head/cmo
-	name = "medical director's rubber stamp"
+	name = "chief medical officer's rubber stamp"
 	icon_state = "stamp-cmo"
 	dye_color = DYE_CMO
 
