@@ -83,8 +83,7 @@
 /// Become the official Captain of the station
 /datum/grand_finale/usurp
 	name = "Usurpation"
-	desc = "The ultimate use of your gathered power! Rewrite time such that you have been the Site Director of this station the whole time."
-	icon = 'icons/obj/card.dmi'
+	desc = "The ultimate use of your gathered power! Rewrite time such that you have been Captain of this station the whole time."	icon = 'icons/obj/card.dmi'
 	icon_state = "card_gold"
 
 /datum/grand_finale/usurp/trigger(mob/living/carbon/human/invoker)
@@ -177,7 +176,7 @@
 
 /// An outfit which replaces parts of a wizard's clothes with captain's clothes but keeps the robes
 /datum/outfit/job/wizard_captain
-	name = "Site Director (Wizard Transformation)"
+	name = "Captain (Wizard Transformation)"
 	jobtype = /datum/job/captain
 	id = /obj/item/card/id/advanced/gold
 	id_trim = /datum/id_trim/job/captain
