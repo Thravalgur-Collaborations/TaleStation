@@ -204,8 +204,8 @@
 	job = /datum/job/botanist
 
 /datum/id_trim/job/captain
-	assignment = "Site Director"
-	intern_alt_name = "Director-in-Training"
+	assignment = "Captain"
+	intern_alt_name = "Captain-in-Training"
 	trim_state = "trim_captain"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_COMMAND_BLUE
@@ -299,8 +299,8 @@
 	job = /datum/job/chemist
 
 /datum/id_trim/job/chief_engineer
-	assignment = "Site Foreman"
-	intern_alt_name = "Junior Foreman"
+	assignment = "Chief Engineer"
+	intern_alt_name = "Chief Engineer-in-Training"
 	trim_state = "trim_stationengineer"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_ENGINEERING_ORANGE
@@ -340,8 +340,8 @@
 	job = /datum/job/chief_engineer
 
 /datum/id_trim/job/chief_medical_officer
-	assignment = "Medical Director"
-	intern_alt_name = "Medical Director-in-Training"
+	assignment = "Chief Medical Officer"
+	intern_alt_name = "Chief Medical Officer-in-Training"
 	trim_state = "trim_medicaldoctor"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_MEDICAL_BLUE
@@ -537,8 +537,8 @@
 	job = /datum/job/geneticist
 
 /datum/id_trim/job/head_of_personnel
-	assignment = "Asset Clerk"
-	intern_alt_name = "Clerk Trainee"
+	assignment = "Head of Personnel"
+	intern_alt_name = "Head of Personnel-in-Training"
 	trim_state = "trim_headofpersonnel"
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_SERVICE_LIME
