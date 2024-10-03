@@ -202,20 +202,20 @@ LINEN BINS
 	dream_messages = list("honk", "laughter", "a prank", "a joke", "a smiling face", "the clown")
 
 /obj/item/bedsheet/captain
-	name = "site director's bedsheet"
+	name = "Captain's bedsheet"
 	desc = "It has a Nanotrasen symbol on it, and was woven with a \
 		revolutionary new kind of thread guaranteed to have 0.01% permeability \
 		for most non-chemical substances, popular among most modern Site Directors."
 	icon_state = "sheetcaptain"
 	inhand_icon_state = "sheetcaptain"
-	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the site director")
+	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the Captain")
 
 /obj/item/bedsheet/rd
-	name = "research director's bedsheet"
+	name = "Research Director's bedsheet"
 	desc = "It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day."
 	icon_state = "sheetrd"
 	inhand_icon_state = "sheetrd"
-	dream_messages = list("authority", "a silvery ID", "a bomb", "a mech", "a facehugger", "maniacal laughter", "the research director")
+	dream_messages = list("authority", "a silvery ID", "a bomb", "a mech", "a facehugger", "maniacal laughter", "the Research Director")
 
 // for Free Golems.
 /obj/item/bedsheet/rd/royal_cape
@@ -231,39 +231,39 @@ LINEN BINS
 	dream_messages = list("healing", "life", "surgery", "a doctor")
 
 /obj/item/bedsheet/cmo
-	name = "medical director's bedsheet"
+	name = "Chief Medical Officer's bedsheet"
 	desc = "It's a sterilized blanket that has a cross emblem. There's some cat fur on it, likely from Runtime."
 	icon_state = "sheetcmo"
 	inhand_icon_state = "sheetcmo"
-	dream_messages = list("authority", "a silvery ID", "healing", "life", "surgery", "a cat", "the medical director")
+	dream_messages = list("authority", "a silvery ID", "healing", "life", "surgery", "a cat", "the Chief Medical Officer")
 
 /obj/item/bedsheet/hos
-	name = "head of security's bedsheet"
+	name = "Head of Security's bedsheet"
 	desc = "It is decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!"
 	icon_state = "sheethos"
 	inhand_icon_state = "sheethos"
-	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the head of security")
+	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the Head of Security")
 
 /obj/item/bedsheet/hop
-	name = "asset clerk's bedsheet"
+	name = "Head of Personnel's bedsheet"
 	desc = "It is decorated with a key emblem. For those rare moments when you can rest and cuddle with Ian without someone screaming for you over the radio."
 	icon_state = "sheethop"
 	inhand_icon_state = "sheethop"
-	dream_messages = list("authority", "a silvery ID", "obligation", "a computer", "an ID", "a corgi", "the asset clerk")
+	dream_messages = list("authority", "a silvery ID", "obligation", "a computer", "an ID", "a corgi", "the Head of Personnel")
 
 /obj/item/bedsheet/ce
-	name = "site foreman's bedsheet"
+	name = "Chief Engineer's bedsheet"
 	desc = "It is decorated with a wrench emblem. It's highly reflective and stain resistant, so you don't need to worry about ruining it with oil."
 	icon_state = "sheetce"
 	inhand_icon_state = "sheetce"
-	dream_messages = list("authority", "a silvery ID", "the engine", "power tools", "an APC", "a parrot", "the site foreman")
+	dream_messages = list("authority", "a silvery ID", "the engine", "power tools", "an APC", "a parrot", "the Chief Engineer")
 
 /obj/item/bedsheet/qm
-	name = "quartermaster's bedsheet"
+	name = "Quartermaster's bedsheet"
 	desc = "It is decorated with a crate emblem in silver lining.  It's rather tough, and just the thing to lie on after a hard day of pushing paper."
 	icon_state = "sheetqm"
 	inhand_icon_state = "sheetqm"
-	dream_messages = list("authority", "a silvery ID", "a shuttle", "a crate", "a sloth", "the quartermaster")
+	dream_messages = list("authority", "a silvery ID", "a shuttle", "a crate", "a sloth", "the Quartermaster")
 
 /obj/item/bedsheet/chaplain
 	name = "chaplain's blanket"
