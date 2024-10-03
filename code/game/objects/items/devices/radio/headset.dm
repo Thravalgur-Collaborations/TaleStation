@@ -216,14 +216,14 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	command = TRUE
 
 /obj/item/radio/headset/heads/captain
-	name = "\proper the site director's headset"
-	desc = "The headset of the king."
+	name = "\proper the captain's headset"
+	desc = "The headset of the captain."
 	icon_state = "com_headset"
 	worn_icon_state = "com_headset"
 	keyslot = /obj/item/encryptionkey/heads/captain
 
 /obj/item/radio/headset/heads/captain/alt
-	name = "\proper the site director's bowman headset"
+	name = "\proper the captain's bowman headset"
 	desc = "The headset of the boss. Protects ears from flashbangs."
 	icon_state = "com_headset_alt"
 	worn_icon_state = "com_headset_alt"
@@ -241,14 +241,14 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/heads/hos
 	name = "\proper the head of security's headset"
-	desc = "The headset of the man in charge of keeping order and protecting the station."
+	desc = "The headset of the one in charge of keeping order and protecting the station."
 	icon_state = "com_headset"
 	worn_icon_state = "com_headset"
 	keyslot = /obj/item/encryptionkey/heads/hos
 
 /obj/item/radio/headset/heads/hos/alt
 	name = "\proper the head of security's bowman headset"
-	desc = "The headset of the man in charge of keeping order and protecting the station. Protects ears from flashbangs."
+	desc = "The headset of the one in charge of keeping order and protecting the station. Protects ears from flashbangs."
 	icon_state = "com_headset_alt"
 	worn_icon_state = "com_headset_alt"
 
@@ -257,22 +257,22 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	AddComponent(/datum/component/wearertargeting/earprotection, list(ITEM_SLOT_EARS))
 
 /obj/item/radio/headset/heads/ce
-	name = "\proper the site foreman's headset"
+	name = "\proper the chief engineer's headset"
 	desc = "The headset of the guy in charge of keeping the station powered and undamaged."
 	icon_state = "com_headset"
 	worn_icon_state = "com_headset"
 	keyslot = /obj/item/encryptionkey/heads/ce
 
 /obj/item/radio/headset/heads/cmo
-	name = "\proper the medical director's headset"
-	desc = "The headset of the highly trained medical director."
+	name = "\proper the chief medical officier's headset"
+	desc = "The headset of the highly trained chief medical officer."
 	icon_state = "com_headset"
 	worn_icon_state = "com_headset"
 	keyslot = /obj/item/encryptionkey/heads/cmo
 
 /obj/item/radio/headset/heads/hop
-	name = "\proper the asset clerk's headset"
-	desc = "The headset of the guy who will one day be the Site Director."
+	name = "\proper the head of personnel's headset"
+	desc = "The headset of the guy who will one day be the Captain."
 	icon_state = "com_headset"
 	worn_icon_state = "com_headset"
 	keyslot = /obj/item/encryptionkey/heads/hop
