@@ -214,7 +214,7 @@
 	return add_item_to_steal(src, /obj/item/card/id/departmental_budget/car)
 
 /datum/objective_item/steal/traitor/captain_modsuit
-	name = "the Captain's spare ID"
+	name = "the Captain's magnate MOD control unit"
 	targetitem = /obj/item/mod/control/pre_equipped/magnate
 	excludefromjob = list(JOB_CAPTAIN)
 	exists_on_map = TRUE
