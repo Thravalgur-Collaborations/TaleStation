@@ -1,5 +1,4 @@
 /datum/round_event_control/fake_virus
-	max_occurrences = 1
 	min_players = 10
 
 /datum/round_event_control/bureaucratic_error
