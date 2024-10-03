@@ -87,8 +87,8 @@
 	desc = "Your food will be taste-tested. All of it."
 
 /datum/dog_fashion/head/captain
-	name = "Director %REAL_NAME%"
-	desc = "Probably better than the last Director."
+	name = "Captain %REAL_NAME%"
+	desc = "Probably better than the last captain."
 
 /datum/dog_fashion/head/kitty
 	name = "Runtime"
