@@ -7,8 +7,8 @@
 	resistance_flags = FLAMMABLE
 
 /obj/item/storage/bag/garment/captain
-	name = "site director's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the Site Director."
+	name = "captain's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the Captain."
 
 /obj/item/storage/bag/garment/hos
 	name = "head of security's garment bag"
@@ -19,20 +19,20 @@
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the warden."
 
 /obj/item/storage/bag/garment/hop
-	name = "asset clerk's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the asset clerk."
+	name = "head of personnel's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the head of personnel."
 
 /obj/item/storage/bag/garment/research_director
 	name = "research director's garment bag"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the research director."
 
 /obj/item/storage/bag/garment/chief_medical
-	name = "medical director's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the medical director."
+	name = "chief medical officer's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the chief medical officer."
 
 /obj/item/storage/bag/garment/engineering_chief
-	name = "site foreman's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the site foreman."
+	name = "chief engineer's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the chief engineer."
 
 /obj/item/storage/bag/garment/quartermaster
 	name = "quartermasters's garment bag"
