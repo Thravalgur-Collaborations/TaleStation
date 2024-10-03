@@ -22,16 +22,16 @@ map limastation
 	votable
 endmap
 
+# Disabled maps
+
+map pubbystation
+endmap
+
 map metastation
 	minplayers 25
 	#voteweight 0.5
 	votable
 endmap
-
-map pubbystation
-	votable
-endmap
-
 # Debug-only maps.
 
 map runtimestation
