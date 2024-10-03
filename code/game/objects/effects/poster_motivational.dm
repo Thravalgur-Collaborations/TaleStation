@@ -143,8 +143,8 @@
 	icon_state = "hang_in_there"
 
 /obj/structure/sign/poster/quirk/crew/renault
-	name = "Site Director's Pet"
-	desc = "A poster depicting the Site Director's beloved Renault. He's ok. \
+	name = "Captain's Pet"
+	desc = "A poster depicting the Captain's beloved Renault. He's ok. \
 	When people read this poster they'll feel better!"
 	icon_state = "renault"
 
