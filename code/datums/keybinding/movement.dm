@@ -3,7 +3,7 @@
 	weight = WEIGHT_HIGHEST
 
 /datum/keybinding/movement/north
-	hotkey_keys = list("W", "North")
+	hotkey_keys = list("Z", "North")
 	name = "North"
 	full_name = "Move North"
 	description = "Moves your character north"
@@ -17,7 +17,7 @@
 	keybind_signal = COMSIG_KB_MOVEMENT_SOUTH_DOWN
 
 /datum/keybinding/movement/west
-	hotkey_keys = list("A", "West")
+	hotkey_keys = list("Q", "West")
 	name = "West"
 	full_name = "Move West"
 	description = "Moves your character left"
