@@ -44,20 +44,20 @@
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/command/heads_quarters/captain/private
-	name = "\improper Site Director's Quarters"
+	name = "\improper Captain's Quarters"
 	icon_state = "captain_private"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/command/heads_quarters/ce
-	name = "\improper Site Foreman's Office"
+	name = "\improper Chief Engineer's Office"
 	icon_state = "ce_office"
 
 /area/station/command/heads_quarters/cmo
-	name = "\improper Medical Director's Office"
+	name = "\improper Chief Medical Officer's Office"
 	icon_state = "cmo_office"
 
 /area/station/command/heads_quarters/hop
-	name = "\improper Asset Clerk's Office"
+	name = "\improper Head of Personnel's Office"
 	icon_state = "hop_office"
 
 /area/station/command/heads_quarters/hos

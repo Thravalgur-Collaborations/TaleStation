@@ -1031,7 +1031,7 @@
 /obj/item/card/id/advanced/update_overlays()
 	. = ..()
 
-	if(registered_name && registered_name != "Site Director")
+	if(registered_name && registered_name != "Captain")
 		. += mutable_appearance(icon, assigned_icon_state)
 
 	var/trim_icon_file = trim_icon_override ? trim_icon_override : trim?.trim_icon
@@ -1113,15 +1113,15 @@
 	ADD_TRAIT(src, TRAIT_TASTEFULLY_THICK_ID_CARD, ROUNDSTART_TRAIT)
 
 /obj/item/card/id/advanced/gold/captains_spare
-	name = "site director's spare ID"
-	desc = "The spare ID of the Sir Asshole themself."
-	registered_name = "Site Director"
+	name = "captain's spare ID"
+	desc = "The spare ID of the High Leader themself."
+	registered_name = "Captain"
 	trim = /datum/id_trim/job/captain
 	registered_age = null
 
 /obj/item/card/id/advanced/gold/captains_spare/update_label() //so it doesn't change to Captain's ID card (Captain) on a sneeze
-	if(registered_name == "Site Director")
-		name = "[initial(name)][(!assignment || assignment == "Site Director") ? "" : " ([assignment])"]"
+	if(registered_name == "Captain")
+		name = "[initial(name)][(!assignment || assignment == "Captain") ? "" : " ([assignment])"]"
 		update_appearance(UPDATE_ICON)
 	else
 		..()

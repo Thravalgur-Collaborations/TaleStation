@@ -48,7 +48,7 @@
 	inhand_icon_state = "that"
 
 /obj/item/clothing/head/collectable/captain
-	name = "collectable site director's hat"
+	name = "collectable captain's hat"
 	desc = "A collectable hat that'll make you look just like a real comdom!"
 	icon = 'icons/obj/clothing/head/hats.dmi'
 	worn_icon = 'icons/mob/clothing/head/hats.dmi'

@@ -137,7 +137,7 @@
 	category = CAT_TOOLS
 
 /obj/item/pen/fountain/captain
-	name = "site director's fountain pen"
+	name = "captain's fountain pen"
 	desc = "It's an expensive Oak fountain pen. The nib is quite sharp."
 	icon_state = "pen-fountain-o"
 	force = 5

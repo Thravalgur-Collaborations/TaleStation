@@ -75,7 +75,7 @@
 	greyscale_colors = "#2f2e31"
 
 /obj/item/clothing/gloves/captain
-	name = "site director's gloves"
+	name = "captain's gloves"
 	desc = "Regal blue gloves, with a nice gold trim, a diamond anti-shock coating, and an integrated thermal barrier. Swanky."
 	icon_state = "captain"
 	inhand_icon_state = null
