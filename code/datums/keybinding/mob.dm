@@ -51,7 +51,7 @@
 	return TRUE
 
 /datum/keybinding/mob/drop_item
-	hotkey_keys = list("N")
+	hotkey_keys = list("A")
 	name = "drop_item"
 	full_name = "Drop Item"
 	description = ""
