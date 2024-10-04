@@ -49,7 +49,7 @@
 	keybind_signal = COMSIG_KB_HUMAN_BAGEQUIP_DOWN
 
 /datum/keybinding/human/quick_equip_belt/quick_equip_suit_storage
-	hotkey_keys = list("ShiftN")
+	hotkey_keys = list("N")
 	name = "quick_equip_suit_storage"
 	full_name = "Quick equip suit storage slot"
 	description = "Put held thing in suit storage slot item or take out most recent thing from suit storage slot item"
