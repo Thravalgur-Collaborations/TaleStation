@@ -107,8 +107,8 @@ SECURITY_SCALING_COEFF 8
 
 ## The number of objectives traitors get.
 ## Not including escaping/hijacking.
-TRAITOR_OBJECTIVES_AMOUNT 2
-BROTHER_OBJECTIVES_AMOUNT 2
+TRAITOR_OBJECTIVES_AMOUNT 0
+BROTHER_OBJECTIVES_AMOUNT 0
 
 ## Uncomment to prohibit jobs that start with loyalty
 ## implants from being most antagonists.
@@ -171,7 +171,7 @@ ALLOW_AI_MULTICAM
 
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
 ## 600 is one minute.
-GATEWAY_DELAY 18000
+GATEWAY_DELAY 6000
 
 ## The probability of the gateway mission being a config one
 CONFIG_GATEWAY_CHANCE 0
