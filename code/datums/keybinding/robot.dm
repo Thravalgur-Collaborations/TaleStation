@@ -36,7 +36,7 @@
 	return TRUE
 
 /datum/keybinding/robot/modulethree
-	hotkey_keys = list(""")
+	hotkey_keys = list("\"")
 	name = "module_three"
 	full_name = "Toggle module 3"
 	description = "Equips or unequips the third module"
