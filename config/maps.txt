@@ -28,10 +28,8 @@ map pubbystation
 endmap
 
 map metastation
-	minplayers 25
-	#voteweight 0.5
-	votable
 endmap
+
 # Debug-only maps.
 
 map runtimestation
