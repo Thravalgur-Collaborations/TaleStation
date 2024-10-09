@@ -6,7 +6,7 @@
 	return iscarbon(user.mob)
 
 /datum/keybinding/carbon/toggle_throw_mode
-	hotkey_keys = list("R", "Southwest") // END
+	hotkey_keys = list("V", "Southwest") // END
 	name = "toggle_throw_mode"
 	full_name = "Toggle throw mode"
 	description = "Toggle throwing the current item or not."

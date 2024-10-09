@@ -1,17 +1,16 @@
-<!-- Write **BELOW** The Headers and **ABOVE** The comments else it may not be viewable. -->
-<!-- You can view Contributing.MD for a detailed description of the pull request process. -->
+<!-- Merci d'écrire **SOUS** les titres et **AU-DESSUS** des commentaires pour que tout s'affiche correctement. -->
 
-## About The Pull Request
+## About The Pull Request / A propos
 
-<!-- Describe The Pull Request. Please be sure every change is documented or this can delay review and even discourage maintainers from merging your PR! -->
+<!-- Describe The Pull Request. Please be sure every change is documented or this can delay review and even discourage maintainers from merging your PR! / Décrivez votre PR. Documentez-le de façon claire et complète pour faciliter la relecture et les tests. -->
 
-## How does it improve TaleStation
+## How does it improve the codebase / Apports à la codebase
 
-<!-- Argue for the merits of your changes and how they benefit the game, especially if they are controversial and/or far reaching. If you can't actually explain WHY what you are doing will improve the game, then it probably isn't good for the game in the first place. -->
+<!-- Argue for the merits of your changes and how they benefit the game, especially if they are controversial and/or far reaching. If you can't actually explain WHY what you are doing will improve the game, then it probably isn't good for the game in the first place. / Qu'est-ce que ça apporte de bien pour le jeu (aux autres joueurs, à l'équilibrage, au lore...) ? Si vous n'avez pas d'arguments ou d'idées de ce que ça améliore, ce n'est probablement pas bon signe. -->
 
 ## Changelog
 
-<!-- If your PR modifies aspects of the game that can be concretely observed by players or admins you should add a changelog. If your change does NOT meet this description, remove this section. Be sure to properly mark your PRs to prevent unnecessary GBP loss. You can read up on GBP and it's effects on PRs in the tgstation guides for contributors. Please note that maintainers freely reserve the right to remove and add tags should they deem it appropriate. You can attempt to finagle the system all you want, but it's best to shoot for clear communication right off the bat. -->
+<!-- If your PR modifies aspects of the game that can be concretely observed by players or admins you should add a changelog. If your change does NOT meet this description, remove this section. Indiquez ici les changements qui vont être observés par les joueurs/admins directement en jeu pour les changelogs. Si le jeu n'est pas affecté (github, outils, autres), retirer la section. -->
 
 :cl:
 add: Added new mechanics or gameplay changes
@@ -22,6 +21,7 @@ balance: rebalanced something
 fix: fixed a few things
 sound: added/modified/removed audio or sound effects
 image: added/modified/removed some icons or images
+map: added/modified/removed map content
 spellcheck: fixed a few typos
 code: changed some code
 refactor: refactored some code

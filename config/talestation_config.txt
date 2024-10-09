@@ -11,8 +11,8 @@ TRANSFER_AUTO_VOTE_ENABLED
 ## Minimum shift length allowed before transfer votes are enabled. Also when auto transfer votes begin, if enabled. (default 54000 = 1.5 hours)
 TRANSFER_TIME_MIN_ALLOWED 54000
 
-## Amount of time between automatic transfer votes. (default 18000 = 30 minutes)
-TRANSFER_TIME_BETWEEN_AUTO_VOTES 18000
+## Amount of time between automatic transfer votes. (default 18000 = 30 minutes, 6000 = 10 minutes)
+TRANSFER_TIME_BETWEEN_AUTO_VOTES 6000
 
 ## Message that gets displayed when the transfer vote passes
 TRANSFER_CALL_REASON "Crew transfer vote successful, dispatching shuttle for shift change."
@@ -37,7 +37,7 @@ TRANSFER_CALL_REASON "Crew transfer vote successful, dispatching shuttle for shi
 ## Minimum flavor text number needed to enter the game
 ## YOU MUST HAVE MIN_FLAVOR_TEXT ENABLED FOR THIS TO WORK.
 ## Don't ever set this to 0, just disable MIN_FLAVOR_TEXT
-#FLAVOR_TEXT_CHARACTER_REQUIREMENT 125
+#FLAVOR_TEXT_CHARACTER_REQUIREMENT 100
 
 ## This requires TGS to use.
 ## This'll spit out a TGS alert if/when the SM delams

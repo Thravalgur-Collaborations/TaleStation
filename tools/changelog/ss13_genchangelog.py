@@ -82,6 +82,7 @@ validPrefixes = [
     "config",
     "admin",
     "server",
+    'map',
 ]
 
 

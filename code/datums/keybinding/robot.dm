@@ -6,7 +6,7 @@
 	return iscyborg(user.mob)
 
 /datum/keybinding/robot/moduleone
-	hotkey_keys = list("1")
+	hotkey_keys = list("&")
 	name = "module_one"
 	full_name = "Toggle module 1"
 	description = "Equips or unequips the first module"
@@ -21,7 +21,7 @@
 	return TRUE
 
 /datum/keybinding/robot/moduletwo
-	hotkey_keys = list("2")
+	hotkey_keys = list("é")
 	name = "module_two"
 	full_name = "Toggle module 2"
 	description = "Equips or unequips the second module"
@@ -36,7 +36,7 @@
 	return TRUE
 
 /datum/keybinding/robot/modulethree
-	hotkey_keys = list("3")
+	hotkey_keys = list("\"")
 	name = "module_three"
 	full_name = "Toggle module 3"
 	description = "Equips or unequips the third module"
@@ -51,7 +51,7 @@
 	return TRUE
 
 /datum/keybinding/robot/unequip_module
-	hotkey_keys = list("Q")
+	hotkey_keys = list("A")
 	name = "unequip_module"
 	full_name = "Unequip module"
 	description = "Unequips the active module"
