@@ -16,7 +16,7 @@
 
 /// Time between auto transfer votes
 /datum/config_entry/number/transfer_time_between_auto_votes
-	default = 30 MINUTES
+	default = 10 MINUTES
 	integer = FALSE
 	min_val = 2 MINUTES
 
@@ -48,7 +48,7 @@
 /// Config entry for enabling flavortext min character count, good to disable for debugging purposes
 // NEVER set this value to 0!!
 /datum/config_entry/number/flavor_text_character_requirement
-	default = 125
+	default = 100
 
 GLOBAL_VAR(main_engine_start_reason)
 /// This is the channel TGS will use to announce SM delamms

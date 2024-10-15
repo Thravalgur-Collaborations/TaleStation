@@ -22,14 +22,12 @@ map limastation
 	votable
 endmap
 
-map metastation
-	minplayers 25
-	#voteweight 0.5
-	votable
-endmap
+# Disabled maps
 
 map pubbystation
-	votable
+endmap
+
+map metastation
 endmap
 
 # Debug-only maps.

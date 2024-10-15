@@ -36,7 +36,7 @@
 	return TRUE
 
 /datum/keybinding/mob/activate_inhand
-	hotkey_keys = list("Z")
+	hotkey_keys = list("W")
 	name = "activate_inhand"
 	full_name = "Activate in-hand"
 	description = "Uses whatever item you have inhand"
@@ -51,7 +51,7 @@
 	return TRUE
 
 /datum/keybinding/mob/drop_item
-	hotkey_keys = list("Q")
+	hotkey_keys = list("A")
 	name = "drop_item"
 	full_name = "Drop Item"
 	description = ""

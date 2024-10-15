@@ -19,22 +19,22 @@ $include talestation_config.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+SERVERNAME Exodus Station
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Exodus Station
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 #HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
-LOBBY_COUNTDOWN 120
+LOBBY_COUNTDOWN 240
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
-ROUND_END_COUNTDOWN 90
+ROUND_END_COUNTDOWN 120
 
 ## Comment this out if you want to use the SQL based admin system, the legacy system uses admins.txt.
 ## You need to set up your database to use the SQL based system.
@@ -131,10 +131,10 @@ VOTE_PERIOD 600
 ## 0 = Cannot respawn (default)
 ## 1 = Can respawn
 ## 2 = Can respawn if choosing a different character
-ALLOW_RESPAWN 0
+ALLOW_RESPAWN 2
 
 ## Respawn delay (deciseconds), which doesn't allow to return to lobby
-RESPAWN_DELAY 0
+RESPAWN_DELAY 1200
 
 ## set a hosted by name for unix platforms
 HOSTEDBY Yournamehere
@@ -266,25 +266,25 @@ NOTE_STALE_DAYS 365.2422
 ##Note: all population caps can be used with each other if desired.
 
 ## Uncomment for 'soft' population caps, players will be warned while joining if the living crew exceeds the listed number.
-#SOFT_POPCAP 100
+SOFT_POPCAP 20
 
 ## Message for soft cap
-SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider using alternative game servers.
+SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, lag can occur.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
-#HARD_POPCAP 150
+#HARD_POPCAP 30
 
 ## Message for hard cap
 HARD_POPCAP_MESSAGE The server is currently serving a high number of users, You cannot currently join. You may wait for the number of living crew to decline, observe, or find alternative servers.
 
 ## Uncomment for 'extreme' population caps, players will not be allowed to join the server if living crew exceeds the listed number.
-#EXTREME_POPCAP 200
+EXTREME_POPCAP 50
 
 ## Message for extreme cap
 EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers.
 
 ## Uncomment to allow BYOND subscribers to bypassing server connection population cap. (Living player population cap still applies.)
-BYOND_MEMBER_BYPASS_POPCAP
+# BYOND_MEMBER_BYPASS_POPCAP
 
 ## Notify admins when a new player connects for the first x days a player's been around. (0 for first connection only, -1 for never)
 ##	Requres database
@@ -394,9 +394,9 @@ MINUTE_TOPIC_LIMIT 200
 ## Admins are exempt from these limits.
 ## Hitting the minute limit notifies admins.
 ## Set to 0 to disable.
-SECOND_CLICK_LIMIT 15
+SECOND_CLICK_LIMIT 20
 
-MINUTE_CLICK_LIMIT 400
+MINUTE_CLICK_LIMIT 600
 
 ##Error handling related options
 ## The "cooldown" time for each occurence of a unique error
