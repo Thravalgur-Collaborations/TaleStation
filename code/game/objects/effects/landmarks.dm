@@ -122,7 +122,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Head of Security"
 
 /obj/effect/landmark/start/captain
-	name = "Site Director"
+	name = "Captain"
 	icon_state = "Captain"
 
 /obj/effect/landmark/start/detective
@@ -134,11 +134,11 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Warden"
 
 /obj/effect/landmark/start/chief_engineer
-	name = "Site Foreman"
+	name = "Chief Engineer"
 	icon_state = "Chief Engineer"
 
 /obj/effect/landmark/start/head_of_personnel
-	name = "Asset Clerk"
+	name = "Head of Personnel"
 	icon_state = "Head of Personnel"
 
 /obj/effect/landmark/start/librarian
@@ -186,7 +186,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Geneticist"
 
 /obj/effect/landmark/start/chief_medical_officer
-	name = "Medical Director"
+	name = "Chief Medical Officer"
 	icon_state = "Chief Medical Officer"
 
 /obj/effect/landmark/start/virologist

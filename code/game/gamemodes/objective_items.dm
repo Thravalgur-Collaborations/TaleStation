@@ -179,7 +179,7 @@
 	return add_item_to_steal(src, /obj/item/clothing/accessory/lawyers_badge)
 
 /datum/objective_item/steal/traitor/chief_engineer_belt
-	name = "the Site Foreman's belt"
+	name = "the Chief Engineer's belt"
 	targetitem = /obj/item/storage/belt/utility/chief
 	excludefromjob = list(JOB_CHIEF_ENGINEER)
 	exists_on_map = TRUE
@@ -214,7 +214,7 @@
 	return add_item_to_steal(src, /obj/item/card/id/departmental_budget/car)
 
 /datum/objective_item/steal/traitor/captain_modsuit
-	name = "the site director's spare ID"
+	name = "the Captain's magnate MOD control unit"
 	targetitem = /obj/item/mod/control/pre_equipped/magnate
 	excludefromjob = list(JOB_CAPTAIN)
 	exists_on_map = TRUE
@@ -242,7 +242,7 @@
 
 // Will always generate even with no Captain due to its security and temptation to use it
 /datum/objective_item/steal/caplaser
-	name = "the site director's antique laser gun"
+	name = "the Captain's antique laser gun"
 	targetitem = /obj/item/gun/energy/laser/captain
 	excludefromjob = list(JOB_CAPTAIN)
 	exists_on_map = TRUE
@@ -281,7 +281,7 @@
 	return add_item_to_steal(src, /obj/item/hand_tele)
 
 /datum/objective_item/steal/jetpack
-	name = "the site director's jetpack"
+	name = "the Captain's jetpack"
 	targetitem = /obj/item/tank/jetpack/oxygen/captain
 	excludefromjob = list(JOB_CAPTAIN)
 	item_owner = list(JOB_CAPTAIN)
@@ -291,7 +291,7 @@
 	return add_item_to_steal(src, /obj/item/tank/jetpack/oxygen/captain)
 
 /datum/objective_item/steal/magboots
-	name = "the site foreman's advanced magnetic boots"
+	name = "the chief engineer's advanced magnetic boots"
 	targetitem = /obj/item/clothing/shoes/magboots/advance
 	excludefromjob = list(JOB_CHIEF_ENGINEER)
 	item_owner = list(JOB_CHIEF_ENGINEER)

@@ -47,10 +47,10 @@
 
 
 /datum/job/chief_medical_officer/get_captaincy_announcement(mob/living/captain)
-	return "Due to staffing shortages, newly promoted Acting Site Director [captain.real_name] on deck!"
+	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
 
 /datum/outfit/job/cmo
-	name = "Medical Director"
+	name = "Chief Medical Officer"
 	jobtype = /datum/job/chief_medical_officer
 
 	id = /obj/item/card/id/advanced/silver
@@ -82,7 +82,7 @@
 	skillchips = list(/obj/item/skillchip/entrails_reader)
 
 /datum/outfit/job/cmo/mod
-	name = "Medical Director (MODsuit)"
+	name = "Chief Medical Officer (MODsuit)"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/rescue

@@ -112,16 +112,15 @@
 	icon_state = "hos"
 
 /obj/structure/statue/gold/hop
-	name = "statue of the asset clerk"
+	name = "statue of the head of personnel"
 	icon_state = "hop"
 
 /obj/structure/statue/gold/cmo
-	name = "statue of the medical director"
+	name = "statue of the chief medical officer"
 	icon_state = "cmo"
 
 /obj/structure/statue/gold/ce
-	name = "statue of the site foreman"
-	icon_state = "ce"
+	name = "statue of the chief engineer"
 
 /obj/structure/statue/gold/rd
 	name = "statue of the research director"
@@ -170,7 +169,7 @@
 	abstract_type = /obj/structure/statue/diamond
 
 /obj/structure/statue/diamond/captain
-	name = "statue of THE Site Director."
+	name = "statue of THE Captain."
 	icon_state = "cap"
 
 /obj/structure/statue/diamond/ai1

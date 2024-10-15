@@ -1,6 +1,6 @@
 /obj/item/clothing/under/plasmaman/captain
-	name = "site director's plasma envirosuit"
-	desc = "It's a blue envirosuit with some gold markings denoting the rank of \"Site Director\"."
+	name = "captain's plasma envirosuit"
+	desc = "It's a blue envirosuit with some gold markings denoting the rank of \"Captain\"."
 	icon_state = "captain_envirosuit"
 	inhand_icon_state = null
 	sensor_mode = SENSOR_COORDS
@@ -13,8 +13,8 @@
 	acid = 95
 
 /obj/item/clothing/under/plasmaman/head_of_personnel
-	name = "asset clerk's plasma envirosuit"
-	desc = "It's an envirosuit worn by someone who works in the position of \"Asset Clerk\"."
+	name = "head of personnel's plasma envirosuit"
+	desc = "It's an envirosuit worn by someone who works in the position of \"Head of Personnel\"."
 	icon_state = "hop_envirosuit"
 	inhand_icon_state = null
 
@@ -33,8 +33,8 @@
 	acid = 95
 
 /obj/item/clothing/under/plasmaman/chief_engineer
-	name = "site foreman's plasma envirosuit"
-	desc = "An air-tight suit designed to be used by plasmamen insane enough to achieve the rank of \"Site Foreman\"."
+	name = "chief engineer's plasma envirosuit"
+	desc = "An air-tight suit designed to be used by plasmamen insane enough to achieve the rank of \"Chief Engineer\"."
 	icon_state = "ce_envirosuit"
 	inhand_icon_state = null
 	armor_type = /datum/armor/clothing_under/engineering_chief_engineer/plasmaman
@@ -45,8 +45,8 @@
 	acid = 95
 
 /obj/item/clothing/under/plasmaman/chief_medical_officer
-	name = "medical director's plasma envirosuit"
-	desc = "It's an envirosuit worn by those with the experience to be \"Medical Director\"."
+	name = "chief medical officer's plasma envirosuit"
+	desc = "It's an envirosuit worn by those with the experience to be \"Chief Medical Officer\"."
 	icon_state = "cmo_envirosuit"
 	inhand_icon_state = null
 

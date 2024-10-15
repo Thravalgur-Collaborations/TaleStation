@@ -28,12 +28,12 @@
 	desc = "Worn by Cargonia, supplying the station with the necessary tools for survival."
 
 /obj/item/clothing/neck/cloak/cmo
-	name = "medical director's cloak"
+	name = "chief medical officer's cloak"
 	desc = "Worn by Meditopia, the valiant men and women keeping pestilence at bay."
 	icon_state = "cmocloak"
 
 /obj/item/clothing/neck/cloak/ce
-	name = "site foreman's cloak"
+	name = "chief engineer's cloak"
 	desc = "Worn by Engitopia, wielders of an unlimited power."
 	icon_state = "cecloak"
 	resistance_flags = FIRE_PROOF
@@ -44,13 +44,13 @@
 	icon_state = "rdcloak"
 
 /obj/item/clothing/neck/cloak/cap
-	name = "site director's cloak"
+	name = "captain's cloak"
 	desc = "Worn by the commander of Space Station 13."
 	icon_state = "capcloak"
 
 /obj/item/clothing/neck/cloak/hop
-	name = "asset clerk's cloak"
-	desc = "Worn by the Asset Clerk. It smells faintly of bureaucracy."
+	name = "head of personnel's cloak"
+	desc = "Worn by the Head of Personnel. It smells faintly of bureaucracy."
 	icon_state = "hopcloak"
 
 /obj/item/clothing/neck/cloak/skill_reward

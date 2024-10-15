@@ -83,12 +83,11 @@
 /// Become the official Captain of the station
 /datum/grand_finale/usurp
 	name = "Usurpation"
-	desc = "The ultimate use of your gathered power! Rewrite time such that you have been the Site Director of this station the whole time."
-	icon = 'icons/obj/card.dmi'
+	desc = "The ultimate use of your gathered power! Rewrite time such that you have been Captain of this station the whole time."	icon = 'icons/obj/card.dmi'
 	icon_state = "card_gold"
 
 /datum/grand_finale/usurp/trigger(mob/living/carbon/human/invoker)
-	message_admins("[key_name(invoker)] has replaced the Site Director")
+	message_admins("[key_name(invoker)] has replaced the Captain")
 	var/list/former_captains = list()
 	var/list/other_crew = list()
 	SEND_SOUND(world, sound('sound/magic/timeparadox2.ogg'))
@@ -104,7 +103,7 @@
 			the stars rush back to greet each other at the beginning of things and then... you snap back to the present. \n\
 			Everything is just as it was and always has been. \n\n\
 			A stray thought sticks in the forefront of your mind. \n\
-			[span_hypnophrase("I'm so glad that [invoker.real_name] is our legally appointed Site Director!")] \n\
+			[span_hypnophrase("I'm so glad that [invoker.real_name] is our legally appointed Captain!")] \n\
 			Is... that right?"))
 		if (is_captain_job(crewmate.mind.assigned_role))
 			former_captains += crewmate
@@ -115,7 +114,7 @@
 
 	dress_candidate(invoker)
 	GLOB.manifest.modify(invoker.real_name, JOB_CAPTAIN, JOB_CAPTAIN)
-	minor_announce("Site Director [invoker.real_name] on deck!")
+	minor_announce("Captain [invoker.real_name] on deck!")
 
 	// Enlist some crew to try and restore the natural order
 	for (var/mob/living/carbon/human/former_captain as anything in former_captains)
@@ -177,7 +176,7 @@
 
 /// An outfit which replaces parts of a wizard's clothes with captain's clothes but keeps the robes
 /datum/outfit/job/wizard_captain
-	name = "Site Director (Wizard Transformation)"
+	name = "Captain (Wizard Transformation)"
 	jobtype = /datum/job/captain
 	id = /obj/item/card/id/advanced/gold
 	id_trim = /datum/id_trim/job/captain

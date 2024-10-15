@@ -78,7 +78,7 @@
 /obj/item/clothing/glasses/hud/health/night/science
 	name = "night vision medical science scanner HUD"
 	desc = "An clandestine medical science heads-up display that allows operatives to find \
-		dying Site Directors and the perfect poison to finish them off in complete darkness."
+		dying Captains and the perfect poison to finish them off in complete darkness."
 	clothing_traits = list(TRAIT_REAGENT_SCANNER)
 
 /obj/item/clothing/glasses/hud/health/sunglasses

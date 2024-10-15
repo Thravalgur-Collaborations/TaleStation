@@ -20,7 +20,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 
 /obj/item/clothing/under/rank/engineering/overalls/chief_engineer
-	name = "Site Foreman's overalls"
+	name = "Chief Engineer's overalls"
 	desc = "Nothing sets the mood like a pair of coffee stained overalls. Oh, and a few lost pens. How'd these get in there?"
 	icon = 'icons/obj/clothing/under/misc.dmi'
 	worn_icon = 'icons/mob/clothing/under/misc.dmi'
